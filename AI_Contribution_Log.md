@@ -9,7 +9,6 @@
 - ChatGPT was used to understand the SLE requirements.
 - ChatGPT was used to help design the AI-Based Smart Home Agent.
 - ChatGPT was used to generate and explain the Python code.
-- ChatGPT was used to prepare the README and AI Contribution Log.
 
 ## 2. AI-Generated Code
 
