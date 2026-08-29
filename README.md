@@ -3,25 +3,49 @@
 ## SLE-1 – Introduction to Artificial Intelligence
 
 ### Project
-Simple PEAS-Based Smart Vacuum Cleaner Agent
+AI-Based Smart Home Agent
 
 ### Description
-This project demonstrates a simple AI agent that observes the condition
-of rooms and takes appropriate actions.
+This project demonstrates a simple AI-based smart home agent.
+The agent observes the home environment using sensor information
+and takes suitable actions automatically.
 
-The agent checks whether a room is dirty or clean.
-If the room is dirty, the agent cleans it.
-If the room is clean, the agent moves to the next room.
+The agent checks temperature, light level, and motion.
+Based on these conditions, it can control devices such as
+air conditioning, lights, and security monitoring.
+
+### PEAS Description
+
+**Performance Measure:**
+- User comfort
+- Energy saving
+- Home security
+
+**Environment:**
+- Smart rooms
+- Temperature
+- Light conditions
+- People or motion
+
+**Actuators:**
+- Air conditioner
+- Lights
+- Security system
+
+**Sensors:**
+- Temperature sensor
+- Light sensor
+- Motion sensor
 
 ### AI Concept Used
-PEAS-based intelligent agent.
+PEAS-based intelligent agent and rule-based decision making.
 
 ### How to Run
 
 1. Install Python 3.
 2. Open the project folder.
 3. Open the terminal.
-4. Run the following command:
+4. Run:
 
 ```bash
-python vacuum_agent.py
+python smart_home_agent.py
